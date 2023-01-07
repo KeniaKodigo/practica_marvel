@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.principal{
+    background-color: #212121;
+}
+
+header{
+    background-image: url('./img/last-movies.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+nav{
+    padding-top: 60px;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+    list-style: none;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.card-img-top{
+    height: 350px;
+    object-fit: contain;
+    background-position: center;
+}
+
+.titulo{
+    text-align: center;
+    color: #063a3c;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.contenido{
+    padding: 70px 0;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 4rem;
+}
+
+.texto1{
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.texto2{
+    margin-top: 25px;
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.descripcion{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+}
